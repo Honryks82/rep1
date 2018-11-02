@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>menu</title>
+
+<style>
+html, body {
+    margin: 0;
+    padding:0;
+}
+#strona {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+#gorneMenu {
+    float: left;
+    height: 50px;
+    width: 100%;
+
+}
+#leweMenu {
+    width: 300px;
+    float: left;
+}
+
+#tresc {
+    float: left;
+    padding: 5px;
+    margin: 20px;
+}
+
+#gornaLista {
+    list-style: none;
+    padding-left: 0;
+    
+}
+#gornaLista a:hover {
+    background-color: darkblue;
+}
+#gornaLista li {
+    float: left;
+    margin-right: 10px;
+    background-color: gray;
+    padding: 5px 10px ;
+    
+}
+
+#gornaLista li a:link {
+    text-decoration: none;
+    color: white;
+}
+#gornaLista li a:hover {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    
+}
+
+.lewaLista {
+    width: 250px;
+    border: 1px solid red;
+    margin: 5px;
+    background-color: gray;
+    color: white;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 0;
+
+}
+.lewaLista:hover {
+    height:auto;
+}
+.lewaLista a:link {
+    text-decoration: none;
+    color: white;
+}
+.lewaLista a:hover {
+    text-decoration: none;
+    color: red;
+}
+</style>
+
+
+
+</head>
+<body>
+<div id="strona">
+<div id="gorneMenu">
+   <ul id="gornaLista">
+<li><a href="#">strona glowna</a></li>
+<li><a href="#">podstrona 1</a></li>
+<li><a href="#">podstrona 2</a></li>
+<li><a href="#">podstrona 3</a></li>
+<li><a href="#">podstrona 4</a></li>
+   </ul>
+</div>
+<div id="leweMenu">
+    <div class="lewaLista">
+        <p>menu1</p>
+        <UL>
+            <li> <a href="#">link1</a> </li>
+            <li> <a href="#">link2</a> </li>
+            <li> <a href="#">link3</a> </li>
+        </UL>
+    </div>
+    <div class="lewaLista">
+        <p>menu2</p>
+        <UL>
+            <li> <a href="#">link4</a> </li>
+            <li> <a href="#">link5</a> </li>
+            <li> <a href="#">link6</a> </li>
+        </UL>
+    </div>
+</div>
+<div id="tresc">zawartosc strony</div>
+</div>
+</body>
+</html>
